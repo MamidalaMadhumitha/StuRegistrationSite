@@ -1,0 +1,178 @@
+*{
+text-decoration-line: none;
+padding: 0;
+margin: 0;
+}
+   /* Body for whole web page*/
+body{
+     margin: 0px 2%;
+     background-image:url("bg.img3.avif");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: grid;
+     height: 90vh;
+     width: 90vw;    
+}
+.form-table {
+    width: 400px;
+    height: 20px;
+    position: relative;
+    left: 20%;
+}
+          /* title for webpage*/
+
+.title{
+    font-size: 2.3rem;
+    font-weight: 550px;
+    margin-top: 2.9rem;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    text-shadow: 2px 2px 1.5rem rgb(218, 225, 228) ;
+    margin-bottom: 6rem;
+}
+.page-data {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2px;
+}
+
+
+               /* form for details*/
+.form { 
+    padding: 20px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+input{
+    font-size: 1.5rem;
+    font-weight: 500px;
+    color: white;
+    border: #dddce9 1px solid;
+    border-radius: 2rem;
+    text-align: center;  
+    padding:5px 0px;
+    margin-top: 1rem;
+    background-color: rgb(143, 7, 136);
+}
+.buttoninput {
+    padding:10px 20px;
+    font-size: larger;
+    font-weight: 900;
+    background-color:rgb(223, 69, 159);
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+.buttoninput:hover{
+    background-color: rgb(184, 80, 144);
+    color: rgb(22, 22, 21);
+    box-shadow: 4px 3px 3rem rgb(219, 217, 226) ;
+}
+
+label{
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 2rem;
+
+}
+       /* Table */
+.table{
+    color: antiquewhite;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 28px;
+    font-weight: 400px;
+    padding: 1rem;
+    border: .5px solid rgb(236, 234, 234);
+    height: 3rem;
+    width: 98%;
+    position:relative;
+    top: 1%; 
+    left: 10%;
+    
+} 
+        /* clicking on Add gives the details entered in the table*/
+
+.table-inside{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: .8rem;
+    border: 1px solid rgb(238, 229, 229);
+    height: 4rem;
+
+    font-size: 1.3rem;
+    position:relative;
+    color:#f5eff3;  
+}
+
+.studentdata{
+    border-radius: 5px 0 0 5px;
+    height: 500px;
+    width: 50%;
+    position: relative;
+    left: 55%;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+      /* Student details*/
+
+.studentname {
+    margin: 1.5rem ;
+    
+}
+.id {
+    margin: 1.5rem ;
+}
+.email {
+    margin: 1.5rem ;
+}
+.contact {
+    margin: 1.5rem ;
+}
+
+/* Buttons */
+
+.trash-button{
+    background-color: #f327af;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px 4px 1rem;
+    cursor: pointer;
+}
+    
+
+.edit-button {
+    background-color: #f327af;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 4px 2rem;
+    cursor: pointer;
+  
+}
+
+
